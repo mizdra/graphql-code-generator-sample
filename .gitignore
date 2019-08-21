@@ -88,6 +88,3 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-
-*.generated.ts
-*.generated.tsx
