@@ -12,7 +12,6 @@
     "@graphql-codegen/near-operation-file-preset": "^1.6.1",
     "@graphql-codegen/typescript": "^1.6.1",
     "@graphql-codegen/typescript-operations": "^1.6.1",
-    "@graphql-codegen/typescript-resolvers": "^1.6.1",
     "typescript": "^3.5.3"
   },
   "dependencies": {
