@@ -1,0 +1,33 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    /* Basic Options */
+    "outDir": "./dist",
+    "target": "es2018",
+    "lib": ["esnext"],
+    "declaration": false,
+    // "jsx": "react",
+
+    /* Module Options */
+    "module": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Lint Options */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* Helper Options */
+    "noEmitHelpers": true,
+    "importHelpers": true,
+
+    /* Debug Options */
+    "sourceMap": true,
+    "pretty": true,
+    "locale": "ja"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "graphql-code-generator-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:graphql": "gql-gen --config graphql-codegen.yml",
+    "check:typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.6.1",
+    "@graphql-codegen/near-operation-file-preset": "^1.6.1",
+    "@graphql-codegen/typescript": "^1.6.1",
+    "@graphql-codegen/typescript-operations": "^1.6.1",
+    "@graphql-codegen/typescript-resolvers": "^1.6.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/graphql": "^14.2.3",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1"
+  }
+}
