@@ -1,8 +1,8 @@
 type Query {
-  currentUser: User!
+  articles: [Article!]!
 }
-type User {
+type Article {
   id: ID!
-  uid: String!
-  displayName: String!
+  title: String!
+  body: String!
 }

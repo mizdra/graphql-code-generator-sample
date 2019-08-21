@@ -6,7 +6,7 @@
     "target": "es2018",
     "lib": ["esnext"],
     "declaration": false,
-    // "jsx": "react",
+    "jsx": "react",
 
     /* Module Options */
     "module": "es2015",
