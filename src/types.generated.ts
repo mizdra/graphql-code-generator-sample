@@ -9,13 +9,13 @@ export type Scalars = {
 };
 
 export type Article = {
-  __typename?: 'Article',
+   __typename?: 'Article',
   id: Scalars['ID'],
   title: Scalars['String'],
   body: Scalars['String'],
 };
 
 export type Query = {
-  __typename?: 'Query',
+   __typename?: 'Query',
   articles: Array<Article>,
 };

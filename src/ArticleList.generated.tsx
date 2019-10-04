@@ -1,5 +1,3 @@
-import * as Types from './types.generated';
-
 import { SimpleArticleFragment } from './ArticleListItem.generated';
 export type GetArticlesQueryVariables = {};
 
